@@ -1,6 +1,7 @@
 {
     "name" : "Tarot of Oz",
     "short_name" : "Tarot of Oz",
+    "description" : "start for Tarot of Oz",
     "scope" : ".",
     "start_url" : "./",
     "display" : "fullscreen",
