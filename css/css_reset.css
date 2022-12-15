@@ -1,0 +1,31 @@
+
+@font-face {
+    font-family: 'SeoulHangangM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/SeoulHangangM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body,h1,h2,h3,p,div,ul,li,dl,dt,dd{
+    margin:0;
+    padding:0
+}
+body{
+    letter-spacing:-1px;
+    font-family: 'SeoulHangangM';
+    font-size:100%
+}
+
+ul,li{
+    list-style:none
+}
+a{
+    text-decoration:none;
+    color:#292929
+}
+address{
+    font-style:normal;
+
+}
+.blind{position:absolute;clip:rect(0 0 0 0);width:1px;height:1px;margin:-1px;overflow:hidden}
+.screen_out{overflow:hidden;position:absolute;width:0;height:0;line-height:0;text-indent: -9999px}
+.hide{position:absolute;left:-9999px;top:-9999px}

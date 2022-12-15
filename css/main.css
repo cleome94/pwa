@@ -1,0 +1,244 @@
+html, body{
+    height:100%;
+    background-color:#341056;
+    color:#fff;
+}
+.container{
+    height:100%;
+
+}
+.header{
+    height:261px;
+    border-top:2px solid#341056;
+    box-sizing:border-box;
+    background:#341056;
+    margin:auto;
+    position:relative;
+}
+.logo{
+    width:242px;
+    height:241px;
+    margin:10px auto 0;
+}
+.logo a{
+    display:block;
+    width:242px;
+    height:241px;
+    background:url(../images/logo.png)no-repeat;
+    text-indent:-9999px;
+}
+.gnb_wrap{
+    position:absolute;
+    width:100%;
+    left:0;top:259px;
+    background:rgb(8, 3, 31);
+}
+.gnb{
+    width:100%;
+    height:100%
+}
+.gnb ul{
+    font-size:24px;
+    display:none
+}
+.gnb li a{
+    display:block;
+    padding:30px 0 30px 10%;
+    box-sizing:border-box;
+    
+}
+.gnb ul a:hover{
+    font-weight:bold;
+    color:rgb(8, 3, 31);
+    background: #fff;
+}
+.gnb a{
+    color:#fff
+}
+
+.gnb_btn{
+    width:89px;
+    height:83px;
+    background:url(../images/tap_menu.png)no-repeat;
+    text-indent:-9999px;
+    position:absolute;
+    left:10%;top:-170px
+}
+.u_menu{
+    position:relative;
+    top:-140px;
+    float:right;
+    margin-right:10%;
+}
+.u_menu ul{
+    display:flex;
+}
+.u_menu a{
+    font-size:24px;
+    font-weight:bold;
+    color:#fff;
+    margin-left:30px;
+}
+.content{
+    margin-left:10%;
+}
+.daily_t h2{
+    margin-top:50px;
+}
+.daily_t p{
+    margin-top:10px;
+    margin-bottom:20px;
+    color:#aaa
+}
+.daily_t ul{
+    max-width:1000px;
+    margin:auto;
+}
+.daily_t li{
+    margin:0 50px 50px;
+}
+.daily_1{
+    width:200px;
+    height:280px;
+    background:url(../images/tarot_01.jpg)no-repeat;
+    text-indent:-9999px;
+    border-radius:10px;
+    float:left
+}
+.daily_2{
+    width:200px;
+    height:280px;
+    background:url(../images/tarot_02.jpg)no-repeat;
+    text-indent:-9999px;
+    border-radius:10px;
+    float:left
+}
+.daily_3{
+    width:200px;
+    height:280px;
+    background:url(../images/tarot_03.jpg)no-repeat;
+    text-indent:-9999px;
+    border-radius:10px;
+    float:left
+}
+.daily_4{
+    width:200px;
+    height:280px;
+    background:url(../images/tarot_04.jpg)no-repeat;
+    text-indent:-9999px;
+    border-radius:10px;
+    float:left
+}
+.daily_5{
+    width:200px;
+    height:280px;
+    background:url(../images/tarot_05.jpg)no-repeat;
+    text-indent:-9999px;
+    border-radius:10px;
+    float:left
+}
+.daily_6{
+    width:200px;
+    height:280px;
+    background:url(../images/tarot_06.jpg)no-repeat;
+    text-indent:-9999px;
+    border-radius:10px;
+    float:left
+}
+.deep_t{
+    clear:both;
+}
+.deep_t p{
+    margin-top:10px;
+    margin-bottom:20px;
+    color:#aaa
+}
+.deep_t ul{
+    max-width:1000px;
+    margin:auto
+}
+.deep_t li{
+    margin:0 50px 50px;
+    float:left
+}
+.deep_1{
+    width:350px;
+    height:240px;
+    background:url(../images/d_tarot_01.jpg)no-repeat;
+    text-indent:-9999px;
+    border-radius:10px
+}
+.deep_2{
+    width:350px;
+    height:240px;
+    background:url(../images/d_tarot_02.jpg)no-repeat;
+    text-indent:-9999px;
+    border-radius:10px
+}
+.deep_3{
+    width:350px;
+    height:240px;
+    background:url(../images/d_tarot_03.jpg)no-repeat;
+    text-indent:-9999px;
+    border-radius:10px
+}
+.deep_4{
+    width:350px;
+    height:240px;
+    background:url(../images/d_tarot_04.jpg)no-repeat;
+    text-indent:-9999px;
+    border-radius:10px
+}
+.play_t{
+    clear:both
+}
+.play_t p{
+    margin-top:10px;
+    margin-bottom:20px;
+    color:#aaa
+}
+.play_t ul{
+    max-width:1000px;
+    margin:auto
+}
+.play_t li{
+    margin:0 50px 50px
+}
+.play_1{
+    width:350px;
+    height:240px;
+    background:url(../images/p_tarot_01.jpg)no-repeat;
+    text-indent:-9999px;
+    float:left
+}
+.play_2{
+    width:350px;
+    height:240px;
+    background:url(../images/p_tarot_02.jpg)no-repeat;
+    text-indent:-9999px;
+    float:left
+}
+.footer{
+    clear:both;
+    margin-left:10%;
+    margin:auto;
+    text-align:center;
+}
+.footer_link ul{
+    display:flex;
+    justify-content:center;
+}
+.footer_link li{
+    margin-top:100px;
+    margin-right:20px;
+    margin-bottom:30px
+}
+.footer_link a{
+    color:#fff;
+}
+.term p{
+    margin-bottom:20px;
+}
+.term p:nth-child(2){
+    color:#aaa;
+}
